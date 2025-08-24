@@ -180,7 +180,7 @@ get_min(root)：
 
 
 
-五、完整結果
+五、完整程式碼與結果
 
 
 <img width="555" height="618" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8.png" />
