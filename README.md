@@ -16,7 +16,7 @@
 下圖是一個二叉搜尋樹的例子，可以參照圖片來核對這三條特性，本文使用Python來實現二叉搜尋樹。
 
 
-<img width="704" height="389" alt="1" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1%E7%9A%84%E7%AF%80%E9%BB%9E.png"/>
+<img width="704" height="389" alt="1" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/%E4%BA%8C%E5%8F%89%E6%90%9C%E5%B0%8B%E6%A8%B9%E7%9A%84%E4%BE%8B%E5%AD%90.png"/>
 
 
 一、實現節點類
