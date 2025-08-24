@@ -23,13 +23,13 @@
 
 所有樹結構都是由一個個的節點構成的，本文使用鏈式的方式來實現二叉搜尋樹，所以先實現一個節點類。
 
-<img width="716" height="491" alt="1節點" src="https://github.com/user-attachments/assets/48f14845-ea8f-4b02-bb6c-222846cbe468" />
+<img width="716" height="491" alt="1節點" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1.png" />
 
 
-結果
+執行結果
 
 
-<img width="294" height="128" alt="1結果" src="https://github.com/user-attachments/assets/ab9e876d-3bd0-4250-8a2a-3a335276e1d5" />
+<img width="294" height="128" alt="1結果" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1%E7%B5%90%E6%9E%9C.png" />
 
 
 
@@ -39,16 +39,16 @@
 
 實現一個二叉搜尋樹的類 SearchBinaryTree，創建二叉搜尋樹時，實例化一個 SearchBinaryTree 類的實例即可。
 
-<img width="581" height="913" alt="2-1" src="https://github.com/user-attachments/assets/23f13333-9a6e-4cc4-91db-cd9e57955220" />
+<img width="581" height="913" alt="2-1" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2-1.png" />
 
-<img width="856" height="833" alt="2-2" src="https://github.com/user-attachments/assets/d42daa75-141e-40f4-89dc-ac6c6be9ce86" />
+<img width="856" height="833" alt="2-2" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2-2.png" />
 
-<img width="496" height="609" alt="2-3" src="https://github.com/user-attachments/assets/33e3e8d7-f62d-46a6-9f26-1e8d9d1b7b69" />
+<img width="496" height="609" alt="2-3" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2-3.png" />
 
-結果
+執行結果
 
 
-<img width="392" height="317" alt="2結" src="https://github.com/user-attachments/assets/479e97e6-94ef-47cc-a54f-5c580ecb6b36" />
+<img width="392" height="317" alt="2結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2%E7%B5%90%E6%9E%9C.png" />
 
 
 程式碼中實現了判斷二叉樹是否為空的 is_empty() 方法、一對供實例物件獲取和設置根節點的 root() 方法，按樹形結構打印二叉樹的 show_tree() 方法，二叉樹的廣度優先遍歷方法和三種深度優先遍歷方法，這裡就不一一介紹了，可以參考本專欄中的其他文章。
@@ -72,11 +72,11 @@
 
   3.  左子樹和右子樹也是二叉搜尋樹，所以遞迴地使用 1、2 的步驟在左子樹和右子樹中找到新節點的添加位置，添加節點。
 
-<img width="588" height="879" alt="3" src="https://github.com/user-attachments/assets/f3038e70-0914-4cdf-b0bd-fddf5d53c3ce" />
+<img width="588" height="879" alt="3" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/3.png" />
 
-結果
+執行結果
 
-<img width="280" height="356" alt="3結" src="https://github.com/user-attachments/assets/698bc39f-204d-4bbc-9086-71a6380258b2" />
+<img width="280" height="356" alt="3結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/3%E7%B5%90%E6%9E%9C.png" />
 
 
 
@@ -103,43 +103,43 @@ insert(root, value)：二叉搜尋樹新增節點的迭代實現。這個方法�
 2.3 如果新節點的數值等於根節點中的數值，按照需求進行處理，可以自己選擇不新增。添加到左子樹中或添加到右子樹中，本文採不新增處理，直接退出無限迴圈即可。
 
 
-<img width="695" height="831" alt="4" src="https://github.com/user-attachments/assets/bd03d996-2eb9-447d-b4dc-20b567df30f8" />
+<img width="695" height="831" alt="4" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/4-1.png" />
 
-<img width="432" height="194" alt="4-1" src="https://github.com/user-attachments/assets/e337e1b4-f170-4e7c-b4be-07c08414e8be" />
+<img width="432" height="194" alt="4-1" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/4-2.png" />
 
 
-結果
+執行結果
 
-<img width="962" height="355" alt="4結" src="https://github.com/user-attachments/assets/728d3959-09eb-43a3-ab98-5ebc1a51c858" />
+<img width="962" height="355" alt="4結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/4%E7%B5%90%E6%9E%9C.png" />
 
 
 insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了上面講述的非遞迴添加過程，程式碼就很好理解了，程式碼完全是按照上面的過程實現的。
 
 上面的遞迴方式和非遞迴方式添加的方法中，都支援傳入一個節點或者入節點中保存的數值。
 
-<img width="847" height="829" alt="5" src="https://github.com/user-attachments/assets/3246cb05-fb72-4a95-be96-2f466822c632" />
+<img width="847" height="829" alt="5" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/5.png" />
 
 
-結果
+執行結果
 
-<img width="319" height="230" alt="5結" src="https://github.com/user-attachments/assets/84af60eb-7c8c-4d58-a7ee-1740770882a7" />
+<img width="319" height="230" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/5%E7%B5%90%E6%9E%9C.png" />
 
 
 新增節點後的二叉搜尋樹結構如上圖，在程式給出的原始數據列表中，有兩個 50 和 18，會出現新增節點時數值與已有節點的數值相同的情況，可以看到並沒有重複添加。
 
 
-<img width="738" height="430" alt="1111" src="https://github.com/user-attachments/assets/e08d520c-478b-41da-9fd2-2a24d8f18760" />
+<img width="738" height="430" alt="1111" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6-1.png" />
 
 
 程式碼已經實現了二叉搜尋樹的廣度優先遍歷和深度優先遍歷，現在新增了數據，可以看一下遍歷的結果。程式碼已經實現了二叉搜尋樹的廣度優先遍歷和深度優先遍歷，現在新增了數據，可以看一下遍歷的結果。
 
 
-<img width="495" height="914" alt="6" src="https://github.com/user-attachments/assets/ecace23f-1638-4e62-922c-f970fc835356" />
+<img width="495" height="914" alt="6" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6-2.png" />
 
 
-結果
+執行結果
 
-<img width="321" height="108" alt="6結" src="https://github.com/user-attachments/assets/de10a9a3-3cc4-4774-85a2-0ac1801c0710" />
+<img width="321" height="108" alt="6結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6%E7%B5%90%E6%9E%9C.png" />
 
 
 四、二叉搜尋樹的額外功能：最大值和最小值
@@ -147,7 +147,7 @@ insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了�
 實現二叉搜尋樹的輔助函數，返回最大值節點和最小值節點的方法。
 
 
-<img width="674" height="576" alt="7" src="https://github.com/user-attachments/assets/387ee583-70af-4f19-892d-b292900cdb58" />
+<img width="674" height="576" alt="7" src="https://github.com/vi55c7a/0822/blob/main/7.png" />
 
 
 功能說明：
@@ -173,17 +173,17 @@ get_min(root)：
 
 
 
-結果
+執行結果
 
 
-<img width="240" height="87" alt="7結" src="https://github.com/user-attachments/assets/2e7fb658-609e-47df-a0de-b9d3e4efc085" />
+<img width="555" height="618" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/7%E7%B5%90%E6%9E%9C.png" />
 
 
 
 五、完整結果
 
 
-<img width="555" height="618" alt="8" src="https://github.com/user-attachments/assets/b887fa63-302b-4381-8b2c-033823c59558" />
+<img width="555" height="618" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8.png" />
 
 
-<img width="270" height="82" alt="8結" src="https://github.com/user-attachments/assets/3dbe2620-728e-4589-98f7-58e9fe275c42" />
+<img width="270" height="82" alt="8結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8%E7%B5%90%E6%9E%9C.png" />
