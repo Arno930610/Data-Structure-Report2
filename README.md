@@ -126,13 +126,13 @@ insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了�
 
 
 新增節點後的二叉搜尋樹結構如上圖，在程式給出的原始數據列表中，有兩個 50 和 18，會出現新增節點時數值與已有節點的數值相同的情況，可以看到並沒有重複添加。
+<img width="319" height="230" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1111.png" />
 
 
-<img width="738" height="430" alt="1111" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6-1.png" />
 
 
 程式碼已經實現了二叉搜尋樹的廣度優先遍歷和深度優先遍歷，現在新增了數據，可以看一下遍歷的結果。程式碼已經實現了二叉搜尋樹的廣度優先遍歷和深度優先遍歷，現在新增了數據，可以看一下遍歷的結果。
-
+<img width="999" height="999" alt="1111" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6-1.png" />
 
 <img width="495" height="914" alt="6" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6-2.png" />
 
