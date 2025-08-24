@@ -126,7 +126,7 @@ insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了�
 
 
 新增節點後的二叉搜尋樹結構如上圖，在程式給出的原始數據列表中，有兩個 50 和 18，會出現新增節點時數值與已有節點的數值相同的情況，可以看到並沒有重複添加。
-<img width="319" height="230" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1111.png" />
+<img width="319" height="230" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/%E6%96%B0%E5%A2%9E%E7%AF%80%E9%BB%9E%E5%BE%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E5%B0%8B%E6%A8%B9%E7%B5%90%E6%A7%8B.png" />
 
 
 
