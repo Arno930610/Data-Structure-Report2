@@ -48,7 +48,7 @@
 執行結果
 
 
-<img width="392" height="317" alt="2結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="2結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/2%E7%B5%90%E6%9E%9C.png" />
 
 
 程式碼中實現了判斷二叉樹是否為空的 is_empty() 方法、一對供實例物件獲取和設置根節點的 root() 方法，按樹形結構打印二叉樹的 show_tree() 方法，二叉樹的廣度優先遍歷方法和三種深度優先遍歷方法，這裡就不一一介紹了，可以參考本專欄中的其他文章。
@@ -76,7 +76,7 @@
 
 執行結果
 
-<img width="280" height="356" alt="3結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/3%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="3結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/3%E7%B5%90%E6%9E%9C.png" />
 
 
 
@@ -110,7 +110,7 @@ insert(root, value)：二叉搜尋樹新增節點的迭代實現。這個方法�
 
 執行結果
 
-<img width="962" height="355" alt="4結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/4%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="4結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/4%E7%B5%90%E6%9E%9C.png" />
 
 
 insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了上面講述的非遞迴添加過程，程式碼就很好理解了，程式碼完全是按照上面的過程實現的。
@@ -122,7 +122,7 @@ insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了�
 
 執行結果
 
-<img width="319" height="230" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/5%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="5結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/5%E7%B5%90%E6%9E%9C.png" />
 
 
 新增節點後的二叉搜尋樹結構如上圖，在程式給出的原始數據列表中，有兩個 50 和 18，會出現新增節點時數值與已有節點的數值相同的情況，可以看到並沒有重複添加。
@@ -139,7 +139,7 @@ insert_normal(value): 二叉搜尋樹新增節點的非遞迴實現。理解了�
 
 執行結果
 
-<img width="321" height="108" alt="6結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="6結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/6%E7%B5%90%E6%9E%9C.png" />
 
 
 四、二叉搜尋樹的額外功能：最大值和最小值
@@ -176,7 +176,7 @@ get_min(root)：
 執行結果
 
 
-<img width="555" height="618" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/7%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/7%E7%B5%90%E6%9E%9C.png" />
 
 
 
@@ -186,4 +186,4 @@ get_min(root)：
 <img width="555" height="618" alt="8" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8.png" />
 
 
-<img width="270" height="82" alt="8結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8%E7%B5%90%E6%9E%9C.png" />
+<img width="1200" height="700" alt="8結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8%E7%B5%90%E6%9E%9C.png" />
