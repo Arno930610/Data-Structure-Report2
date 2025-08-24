@@ -29,7 +29,7 @@
 執行結果
 
 
-<img width="294" height="128" alt="1結果" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1%E7%B5%90%E6%9E%9C.png" />
+<img width="400" height="300" alt="1結果" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/1%E7%B5%90%E6%9E%9C.png" />
 
 
 
