@@ -187,3 +187,5 @@ get_min(root)：
 
 
 <img width="1200" height="700" alt="8結" src="https://github.com/Arno930610/Data-Structure-Report2/blob/main/8%E7%B5%90%E6%9E%9C.png" />
+
+資料來源:"https://blog.csdn.net/weixin_43790276/article/details/105753543?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-12-105753543-blog-86509714.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.7&utm_relevant_index=15"
